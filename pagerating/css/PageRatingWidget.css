@@ -1,0 +1,20 @@
+#PageRatingWidget .starRatingContainer {
+	position: relative;	
+}
+
+
+#PageRatingWidget .star {
+	background: url("../images/rating-gold.png") repeat scroll 0 100px;
+	height: 20px;
+	width: 85px;
+	display: block;
+}
+
+#PageRatingWidget .rate {
+	background: url("../images/rating-gold.png") repeat scroll 0 0px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: -1px;
+	
+}
